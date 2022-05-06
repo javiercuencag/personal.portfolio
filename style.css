@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "DMSerifDisplay-Regular";
+    src: url(fonts/DMSerifDisplay-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+text-align: center;
+position: sticky;
+top: 0%;
+z-index: 1;
+background-color: #355560;
+padding: 8px;}
+
+nav{ font-family: "OpenSans-Light";
+    color: #F6EFDC;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+a{
+    font-family: "OpenSans-Light";
+    color: #F6EFDC;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    margin-right: 24px;
+}
+a:hover{
+    color: #F58672;
+}
+body{
+    background-color: #355560;
+    margin: 80px;
+}
+h3{
+    font-family: "DMSerifDisplay-Regular";
+    color: #F6EFDC;
+    font-size: 120px;
+    margin-bottom: 24px;
+}
+h2{
+    font-family: "DMSerifDisplay-Regular";
+    color: #F58672;
+    font-size: 96px;
+    margin-bottom: 40px;
+}
+.myprojects{
+    color: #F6EFDC;
+}
+h1{
+    font-family: "OpenSans-Light";
+    color: #F58672;
+    font-size: 80px;
+}
+h4{
+    font-family:"OpenSans-Light";
+   color: #F58672;
+   font-size: 80px;
+}
+h5{ font-family: "DMSerifDisplay-Regular";
+    color: #F58672;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h6{ font-family:"OpenSans-Light";
+    color: #F6EFDC;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+p{
+    font-family: "OpenSans-Light";
+    color: #F6EFDC;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.intro{
+    text-align: right;
+}
+#introduction{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+   max-width: 1366;
+    margin-bottom: 20px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.other{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#biography{
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "OpenSans-Light";
+    color: #F6EFDC;
+    font-size: 20px;
+}
+li{ 
+    margin-right: 54px;
+    margin-bottom: 34px;
+}
+
+.figma{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#myprojects{
+    display: flex;
+    flex-direction: column;
+}
+.project1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    background-color: #F6EFDC;
+    padding: 24px;
+    border-radius: 20px;
+}
+.projectbudget{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 120px;
+}
+.project2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+    background-color: #F6EFDC;
+    padding: 24px;
+    border-radius: 20px;
+}
+.projectisabel{
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 70%;
+    margin-left: 120px;
+}
+
+.project3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    background-color: #F6EFDC;
+    padding: 24px;
+    border-radius: 20px;
+}
+.projectshazam{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 120px;
+}
+button{
+    padding: 8px 24px;
+    border:none;
+    font-family:"OpenSans-Light";
+    color:#F6EFDC;
+    background-color: #F58672;
+    font-size: 20px;
+    border-radius: 50px;
+}
+button:hover{
+    color:#355560;
+    background-color: #FCDBD4;
+    cursor: pointer;
+}
+.button2{
+    Width:180px;
+}
+.button3{
+    Width:180px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+
+}
+.pp{color: #355560;}
